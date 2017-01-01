@@ -1,19 +1,27 @@
 import processing.sound.*;
 import codeanticode.syphon.*;
+import themidibus.*;
 
+MidiBus mb;
 SyphonServer server;
 SoundFile file;
 SoundFile file2;
-PImage img1,img2,img3,img4,img5;
+PImage img1;
 int Yposition,X1pos;
 int widthofimg = 162;
+int timelimit = 5000; //sec
+int count=0;
+int FrameMyAss = 15;
 char LIST[] = {'0', '0', '0', '0', '0','0', '0', '0', '0', '0'};
 void settings() {
   size(900, 300, P3D);
   PJOGL.profile=1;
+  
 }
 void setup() {
   size(900, 300);
+  frameRate(FrameMyAss);
+  mb = new MidiBus(this, -1, "autosave");
   Yposition = height/2-100;
   X1pos = width/20;
   file = new SoundFile(this, "sound4.aif");
@@ -28,15 +36,22 @@ void draw() {
     callforAPL(x);
     image(img1, X1pos+((x-5)*widthofimg), Yposition);
   }
+  count++;
+  if(count/FrameMyAss == timelimit){
+    mb.sendNoteOn(0, 51, 255);
+    DeleteALLSwang();
+  }
   server.sendScreen();
 }
 void callforAPL(int x){
   String FUCKINGSTRING = LIST[x]+".png";
   img1 = loadImage(FUCKINGSTRING);
+  
 }
 
 void keyPressed() {
- 
+  count = 0;
+  mb.sendNoteOn(0, 50, 255);
   if ( key >= 65 && key <=90 || 
   key >= 48 && key <= 57 ||
   key >= 97 && key <= 122 ||
@@ -64,13 +79,14 @@ void keyPressed() {
   }
   
   if(key == TAB) {
-    for(int y=0;y<10;y++){
-      LIST[y] =  '`';
-    }
+    DeleteALLSwang();
   }
   
-  
- 
+}
+void DeleteALLSwang(){
+  for(int y=0;y<10;y++){
+    LIST[y] =  '`';
+  }
 }
 void DeleteMySwang(){
   for(int y=9;y>0;y--){
