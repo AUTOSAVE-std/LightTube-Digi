@@ -36,7 +36,7 @@ and search for Sound, Midibus and Syphon, then click install.
 
 ___
 
- Please visit us on facebook https://www.facebook.com/autosavestudio and http://www.autosave.io
+ Please visit us on facebook https://www.facebook.com/autosavestudio and http://autosave.io
  **AUTOSAVE studio** a pack of young talented designers, trying to save the world from comic sans and MS WordArt. We design concerts, spaces, exhibitions, and experience based in Bangkok.
  
 
