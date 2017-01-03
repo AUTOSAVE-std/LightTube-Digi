@@ -5,7 +5,8 @@
 LightTube-Digi is a software specifically made for **SEENSPACE Huahin**, Thailand in 2016 Newyear Party, made by **AUTOSAVE studio** 
 
 [![N|Solid](http://autosave.io/img/git/lighttube-digi1.gif)](http://autosave.io)
-
+[![N|Solid](http://autosave.io/img/git/lighttube-digi2.gif)](http://autosave.io)
+[![N|Solid](http://autosave.io/img/git/lighttube-digi3.gif)](http://autosave.io)
 ### Tell me what this does!
 Basically, this software show 5 digis that represent **AUTOSAVE** light tube. We use _syphon_ to export the screen to `madmapper`(or resolume as your choice), Then the madmapper sent signal to the `LED RBG 5050 encoder` board to trigger on/off to `relays`, then it turn on/off the Fluorescent light tube. The software collects 10 digis data, user will be able to type alphabets, number, and able to type following special chars : '_', '-', '<', '>', '=', '|', '}'
 and it will push the displayed text from right to left. 
