@@ -1,6 +1,6 @@
 # LightTube-Digi
 
-[![N|Solid](http://autosave.io/img/ATS.svg)](http://autosave.io)
+[![N|Solid](http://autosave.io/img/ATS.svg =250x)](http://autosave.io)
 
 LightTube-Digi is a software specifically made for **SEENSPACE Huahin**, Thailand in 2016 Newyear Party, made by **AUTOSAVE studio** 
 
