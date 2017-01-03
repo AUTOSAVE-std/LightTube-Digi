@@ -2,7 +2,7 @@
 
 [![N|Solid](http://autosave.io/img/ATS.svg)](http://autosave.io)
 
-LightTube-Digi is a software specifically made for **SEENSPACE Huahin**, Thailand in 2016 Newyear Party, made by **AUTOSAVE studio** 
+LightTube-Digi is a software specifically made for **SEENSPACE Huahin** 5-digi light tubes, Thailand in 2016-2017 Newyear Party, made by **AUTOSAVE studio** 
 
 [![N|Solid](http://autosave.io/img/git/lighttube-digi1.gif)](http://autosave.io)
 [![N|Solid](http://autosave.io/img/git/lighttube-digi2.gif)](http://autosave.io)
