@@ -31,11 +31,9 @@ sktech > import library > add library
 ```
 and search for Sound, Midibus and Syphon, then click install.
 
-> We will not be responsible for any loss or damage whatsoever caused resulting from running the software
-
 ### Thank you
 
-
+> We will not be responsible for any loss or damage whatsoever caused resulting from running the software
 ___
 
  Please visit us on facebook https://www.facebook.com/autosavestudio and http://autosave.io
